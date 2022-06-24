@@ -28,8 +28,8 @@ function displayPictures(arr) {
         <div class="card-body">
         <h5 class="card-title">${arr.getName()}</h5>
         <p class="card-text">${arr.getArt()}</p>
-        <p class="card-text">${arr.getPrice()}</p>
-        <p class="card-text" style="color: red;">${arr.getStock()}</p>
+        <p class="card-text price">${arr.getPrice()}</p>
+        <p class="card-text stock" style="color: red;">${arr.getStock()}</p>
         <a href="#" class="btn btn-primary">Add To Cart</a>
         </div>
         </div>
